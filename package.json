@@ -1,0 +1,61 @@
+{
+  "name": "jsii-code-samples",
+  "version": "1.7.0",
+  "description": "Code samples that accompany the AWS blog post on jsii",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "jsii -vvv",
+    "build:watch": "jsii -w",
+    "package": "jsii-pacmak -vvv",
+    "test": "echo 'No tests here...'"
+  },
+  "jsii": {
+    "outdir": "dist",
+    "targets": {
+      "python": {
+        "distName": "aws-jsiisamples.jsii-code-samples",
+        "module": "aws_jsiisamples.jsii_code_samples"
+      },
+      "java": {
+        "package": "software.aws.jsiisamples.jsii",
+        "maven": {
+          "groupId": "software.aws.jsiisamples.jsii",
+          "artifactId": "jsii-code-samples"
+        }
+      },
+      "dotnet": {
+        "namespace": "AWSSamples.Jsii",
+        "packageId": "AWSSamples.Jsii",
+        "iconUrl": "https://raw.githubusercontent.com/aws/jsii/master/logo/png/128x128.png"
+      }
+    }
+  },
+  "author": {
+    "name": "Hari Pachuveetil <pachuvee@amazon.com>"
+  },
+  "repository": {
+    "url": "https://github.com/aws-samples/jsii-code-samples.git"
+  },
+  "keywords": [
+    "jsii",
+    "getting-started",
+    "code-samples",
+    "hello-world",
+    "fibonacci",
+    "typescript",
+    "dotnet",
+    "java",
+    "python"
+  ],
+  "license": "MIT-0",
+  "bugs": {
+    "url": "https://github.com/aws-samples/jsii-code-samples/issues"
+  },
+  "homepage": "https://github.com/aws-samples/jsii-code-samples#readme",
+  "devDependencies": {
+    "jsii": "^1.5.0",
+    "jsii-pacmak": "^1.5.0",
+    "jsii-release": "^0.1.5"
+  }
+}
