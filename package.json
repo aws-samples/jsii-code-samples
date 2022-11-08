@@ -54,8 +54,8 @@
   },
   "homepage": "https://github.com/aws-samples/jsii-code-samples#readme",
   "devDependencies": {
-    "jsii": "^1.69.0",
-    "jsii-pacmak": "^1.69.0",
-    "jsii-release": "^0.2.500"
+    "jsii": "^1.70.0",
+    "jsii-pacmak": "^1.70.0",
+    "jsii-release": "^0.2.519"
   }
 }
